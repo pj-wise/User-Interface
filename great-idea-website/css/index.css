@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0 70px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	position: fixed;
+	padding: 20px 0px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+header {
+	padding:50px 50px;
+	height:200px;
+	width:100%;
+}
+
+header nav a {
+	margin-left:80px;
+	color:lightslategray;
+	text-decoration: none;
+}
+
+.logo {
+	margin-left:90px;
+}
+
+#topTitle {
+	text-align: center;
+}
+
+button {
+	margin-right: 410px;
+	padding: 5px 35px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+h1 {
+	font-size: 450%;
+	display: block;
+	margin-left: -400px;
+	margin-bottom: 20px;
+}
+
+#codeimg {
+	display:block;
+	margin-left: 620px;
+	margin-top: -300px;
+	margin-bottom: 60px;
+}
+
+#content {
+	padding: 40px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#topRow1 {
+	display: inline-block;
+	width: 45%;
+	margin-right: 40px;
+}
+
+#topRow2 {
+	display: inline-block;
+	width: 47%;
+}
+
+section img {
+	margin: 20px 0;
+	width:100%;
+}
+
+.bottomRow {
+	display: inline-block;
+	width: 30%;
+	margin-right: 35px;
+}
+
+footer {
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+	color:#000;
+	text-decoration: none;
+}
+
+#copyright {
+	margin-top: 10px;
+	text-align: center;
+}
+
