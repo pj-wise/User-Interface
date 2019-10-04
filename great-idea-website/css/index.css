@@ -199,7 +199,7 @@ h1 {
 }
 
 #codeimg {
-	display      : block;
+	display      : inline-block;
 	margin-left  : 620px;
 	margin-top   : -300px;
 	margin-bottom: 60px;
@@ -211,10 +211,10 @@ h1 {
 }
 
 #topRow1 {
-	display     : inline-block;
-	width       : 45%;
-	margin-right: 40px;
-	border      : 1px solid red;
+	display        : inline-block;
+	width          : 45%;
+	margin-right   : 40px;
+	/* border      : 1px solid red; */
 }
 
 #topRow2 {
